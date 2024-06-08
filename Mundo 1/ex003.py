@@ -15,7 +15,7 @@ soma = num3 + num4 # Possuem tipo primitivo especificado
 print('\n A soma do número 3 e 4 vale {} \n'.format(soma))
 
 print(type(num2)) # Retorna <class 'str'> (não específica == string?)
-print(type(num3)) # Retonra <class 'int'> (específicada)
+print(type(num3)) # Retorna <class 'int'> (específicada)
 
 teste = bool(input('Digite um valor: \n'))
 print('{}'.format(teste))
