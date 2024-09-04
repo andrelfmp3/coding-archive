@@ -54,4 +54,43 @@ if distanciaViagem <= 200:
 else:
     print("O custo da viagem é {}".format(distanciaViagem*0.45))
 
-# exercicios nao finalizados 
+ano = int(input("Insira o ano:\n"))
+if ano%4 == 0 and ano%100 != 0 or ano%400 == 0):                          
+    print("É ano bissexto")
+else:
+    print("Não é ano bissexto")
+
+num1 = int(input("Insira o número 1: \n"))
+num2 = int(input("Insira o número 2: \n"))
+num3 = int(input("Insira o número 3: \n"))
+
+if num1 > num2 > num3:
+    print("O maior numéro é {}, e o menor é {}".format(num1, num3))
+elif num1 > num3 > num2:
+    print("O maior numéro é {}, e o menor é {}".format(num1, num2))
+elif num2 > num1 > num3:
+    print("O maior numéro é {}, e o menor é {}".format(num2, num3))
+elif num2 > num3 > num1:
+    print("O maior numéro é {}, e o menor é {}".format(num2, num1))
+elif num3 > num1 > num2:
+    print("O maior numéro é {}, e o menor é {}".format(num3, num2))
+else:
+    print("O maior numéro é {}, e o menor é {}".format(num3, num1))
+
+salarioAtual = float(input("Qual o seu salário atual?\n")) # Com f-string
+
+if salarioAtual > 1250.00:
+    salarioAtual = salarioAtual + (salarioAtual/10) # Atualiza salário
+    print(f"Seu novo salário é {salarioAtual:.2f}")
+else: 
+    salarioAtual = salarioAtual + (salarioAtual/15)
+    print(f"Seu novo salário é {salarioAtual:.2f}")
+
+l1 = input("Primeira lado do triângulo: \n")
+l2 = input("Segundo lado do triângulo: \n")
+l3 = input("Terceiro lado do triângulo: \n")
+
+if l1 > l2 + l3 or l2 > l1 + l3 or > l3 > l1 + l2:
+    print("É um triângulo possível")
+else:
+    print("Não é um triângulo possível")
