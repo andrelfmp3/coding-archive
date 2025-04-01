@@ -1,4 +1,4 @@
-import socket  # nativo            PRECISA DE LINUX
+import socket  # nativo
 
 try:
     # Criando o socket TCP. socket.socket(family, type)
