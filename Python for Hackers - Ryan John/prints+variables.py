@@ -19,7 +19,3 @@ ip = input("What is the target IP? \n")
 print(f"Your IP is {ip}")
 
 print("You are targeting " + input("What IP would you like to target? "))
-
-
-
-
